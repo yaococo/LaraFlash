@@ -1,0 +1,23 @@
+{
+    "name": "yaococo/LaraFlash",
+    "description": "flash for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "coco",
+            "email": "xinguanxingmeng@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-0": {
+            "GeekGhc\\LaraFlash": "src/"
+        },
+        "files": [
+            "src/GeekGhc/LaraFlash/function.php"
+        ]
+    }
+}
